@@ -1,2 +1,2 @@
 # FinalProject
- Projet Final de la formartion !!! 
+ Projet Final de la formation !!! 

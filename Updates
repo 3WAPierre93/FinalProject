@@ -1,0 +1,5 @@
+Projet Final 3WA
+1/ Revisite du C# SU 3W Schools du 15 au 17/01
+2/ Recherches d'inspiration pour mon main player et quelques assets 2D (Background , Décors , etc)
+3/ Début du projet dan Unity j'ai eu un soucis avec la scène qui n'affichait pas le contenu dans la fenêtre Game , le soucis à été régler car il s'agissait de la position en axe Z 
+qui n'était pas régler à -10 ce qui faisait p  ssé la caméra le GameObject que j'avais placé dans ma scène.
