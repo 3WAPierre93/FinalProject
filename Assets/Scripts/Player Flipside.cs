@@ -5,10 +5,7 @@ using UnityEngine;
 
 public class PlayerFlipside : MonoBehaviour
 {
-    [SerializeField]
-    private SpriteRenderer _spriteRenderer;
-
-
+   
     private float horizontalInput;
     private bool facingRight = true;
 
@@ -20,6 +17,7 @@ public class PlayerFlipside : MonoBehaviour
         SetUpDirectionByScale();
     }
     private void SetUpDirectionByScale()
+
     {
         if (horizontalInput < 0 && facingRight || horizontalInput > 0 && !facingRight)
         {
@@ -27,12 +25,13 @@ public class PlayerFlipside : MonoBehaviour
             Vector3 playerScale= transform.localScale;
             playerScale.x *= -1;
             transform.localScale = playerScale;
-
         }
+
     }
 
-    
 }
+
+    
 
             
         
