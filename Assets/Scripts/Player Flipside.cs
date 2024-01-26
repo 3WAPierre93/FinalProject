@@ -17,7 +17,7 @@ public class PlayerFlipside : MonoBehaviour
     {
         horizontalInput = Input.GetAxis("Horizontal");
 
-        SetUpDirectionByRotation();
+        SetUpDirectionByScale();
     }
     private void SetUpDirectionByScale()
     {
@@ -31,26 +31,7 @@ public class PlayerFlipside : MonoBehaviour
         }
     }
 
-    private void SetUpDirectionByComponent()
-    {
-        if (horizontalInput < 0)
-
-            _spriteRenderer.flipX = true;
-
-        else if (horizontalInput > 0)
-
-            _spriteRenderer.flipX = false;
-    }
-    private void SetUpDirectionByRotation()
-    {
-      if (horizontalInput < 0 && facingRight || horizontalInput > 0 && !facingRight)
-      {
-        facingRight = !facingRight;
-
-        transform.Rotate(new Vector3(0, 180, 0));
-      }
-
-    }
+    
 }
 
             

@@ -25,7 +25,7 @@ public class Movement : MonoBehaviour
         
     {
         _direction.x = Input.GetAxisRaw("Horizontal") * Speed;
-        Debug.Log("is walking");
+        
     }
     void FixedUpdate()
     {
