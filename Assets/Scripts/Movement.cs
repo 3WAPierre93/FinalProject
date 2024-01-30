@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -9,51 +10,89 @@ public class Movement : MonoBehaviour
     #region public
     //Vitesse de Déplacement//
     public float Speed = 10f;
-    public bool Jump;
+    Rigidbody2D rb;
+    bool jump = false;
+    public float jumpforce = 300f;
+    public int maxjump = 2;
+    [SerializeField]
+    private float fallMultiplier = 3f;
+
     #endregion
 
     void Awake()
     {
-        _rgbd = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();   
     }
   
     // Update is called once per frame
     void Update()
-        
     {
         _direction.x = Input.GetAxisRaw("Horizontal") * Speed;
 
-        // CODE POUR SAUTER// Quand la touche espace est pressé le joueur doit sauter 
-        if (Input.GetButtonDown("Jump"))
-             Jump = true;
-        else
-           Jump = false;
+        if (Input.GetButtonDown("Jump") && nbjump < maxjump)
+        {
+            jump = true;
+            Debug.Log("Jump true");
+        }
     }
-        
     void FixedUpdate()
     {
-      
-
-        _rgbd.velocity = _direction;
-
-        //un nouveau vecteur pour la nouvelle vitesse
-        Vector2 newVelocity = _direction * Speed * Time.fixedDeltaTime;
-
-        //la vitesse actuelle en y ne change pas, on garde la gravité //Shoutout To Maxens//
-        newVelocity.y = _rgbd.velocity.y;
-
-        _rgbd.velocity = newVelocity;
-
+        _direction.y = rb.velocity.y;
+       
+        if (jump)
+        {
+            _direction.y = jumpforce * Time.fixedDeltaTime;
+            jump = false;
+            nbjump++;
+        }
+        if(rb.velocity.y <0 )
+        {
+            rb.gravityScale = fallMultiplier;
+        }
+        else
+        {
+            rb.gravityScale = 1f;
+        }
+        rb.velocity = _direction;
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {   // si je touche le sol , mon nb de saut repart à zéro
+        if(collision.collider.CompareTag("Sol"))
+        {
+            nbjump = 0;
+        }
+    }
 
     #region 
     [SerializeField]
-    private Rigidbody2D _rgbd;
     private Vector2 _direction;
+    private int nbjump = 0;
     #endregion
-
 }
+
+
+
+
+
+    
+       
+
+
+
+        
+
+      
+      
+        
+           
+        
+
+
+  
+
+
+
         
 
         
