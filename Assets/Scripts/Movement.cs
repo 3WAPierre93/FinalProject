@@ -17,11 +17,16 @@ public class Movement : MonoBehaviour
     [SerializeField]
     private float fallMultiplier = 3f;
 
+    [Header("Related GameObject")]
+    [SerializeField]
+    private GameObject graphics;
+
     #endregion
 
     void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();   
+        rb = GetComponent<Rigidbody2D>();
+        animator = graphics.GetComponent<Animator>();
     }
   
     // Update is called once per frame
@@ -33,7 +38,9 @@ public class Movement : MonoBehaviour
         {
             jump = true;
             Debug.Log("Jump true");
+            animator.SetBool("Jump", true);
         }
+        animator.SetFloat("Move X", Mathf.Abs(_direction.x));
     }
     void FixedUpdate()
     {
@@ -57,10 +64,11 @@ public class Movement : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
-    {   // si je touche le sol , mon nb de saut repart à zéro
+    {   // si je touche le sol , mon nb de saut repart à zéro //Quand le player touche le sol l'anim Jump s'arrête//
         if(collision.collider.CompareTag("Sol"))
         {
             nbjump = 0;
+            animator.SetBool("Jump", false);
         }
     }
 
@@ -68,6 +76,7 @@ public class Movement : MonoBehaviour
     [SerializeField]
     private Vector2 _direction;
     private int nbjump = 0;
+    private Animator animator;
     #endregion
 }
 
