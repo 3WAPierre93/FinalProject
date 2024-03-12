@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 1869918}
   - component: {fileID: 1869917}
   - component: {fileID: 1869916}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (18)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -293,7 +293,7 @@ GameObject:
   - component: {fileID: 29336974}
   - component: {fileID: 29336973}
   - component: {fileID: 29336972}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (22)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -309,12 +309,12 @@ Transform:
   m_GameObject: {fileID: 29336970}
   serializedVersion: 2
   m_LocalRotation: {x: 0.6963643, y: 0.6963643, z: -0.12278774, w: -0.12278774}
-  m_LocalPosition: {x: 8.36, y: 3.46, z: 0.39940307}
-  m_LocalScale: {x: 5.6, y: 1, z: 0}
+  m_LocalPosition: {x: 8.360001, y: 3.459999, z: 0.39940307}
+  m_LocalScale: {x: 5.5999994, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1776881831}
-  m_Father: {fileID: 875496035}
+  m_Father: {fileID: 1065125319}
   m_LocalEulerAnglesHint: {x: 0, y: 200, z: 90}
 --- !u!61 &29336972
 BoxCollider2D:
@@ -620,7 +620,7 @@ GameObject:
   - component: {fileID: 81767936}
   - component: {fileID: 81767935}
   - component: {fileID: 81767934}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (18)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -778,7 +778,7 @@ GameObject:
   - component: {fileID: 108121217}
   - component: {fileID: 108121216}
   - component: {fileID: 108121215}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (4)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -793,12 +793,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 108121213}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -17.42, y: -7.3, z: -0.049928498}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -17.419998, y: -7.300001, z: -0.049928498}
   m_LocalScale: {x: 16, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 160998774}
+  m_Father: {fileID: 1256719546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &108121215
 BoxCollider2D:
@@ -936,7 +936,7 @@ GameObject:
   - component: {fileID: 140813097}
   - component: {fileID: 140813100}
   - component: {fileID: 140813099}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -1004,11 +1004,11 @@ Transform:
   m_GameObject: {fileID: 140813096}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.46, y: -2.1, z: -0.049928498}
+  m_LocalPosition: {x: 1.4599991, y: -2.1000004, z: -0.049928498}
   m_LocalScale: {x: 18, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 160998774}
+  m_Father: {fileID: 1256719546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &140813099
 BoxCollider2D:
@@ -1091,7 +1091,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 160998774}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -1111,21 +1111,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 140813098}
-  - {fileID: 1577749884}
-  - {fileID: 1600812347}
-  - {fileID: 1114040581}
-  - {fileID: 108121214}
-  - {fileID: 1290270683}
-  - {fileID: 1133821407}
-  - {fileID: 499823299}
-  - {fileID: 418006742}
-  - {fileID: 633026104}
-  - {fileID: 405128156}
-  - {fileID: 1982872227}
-  - {fileID: 771788150}
-  - {fileID: 165585584}
-  - {fileID: 2089110259}
+  - {fileID: 1256719546}
+  - {fileID: 207435267}
+  - {fileID: 875496035}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &165585583
@@ -1140,7 +1128,7 @@ GameObject:
   - component: {fileID: 165585587}
   - component: {fileID: 165585586}
   - component: {fileID: 165585585}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (13)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -1155,12 +1143,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165585583}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -3.5, y: 10.2, z: -0.049928498}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -3.5, y: 10.199999, z: -0.049928498}
   m_LocalScale: {x: 10, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 160998774}
+  m_Father: {fileID: 1256719546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &165585585
 BoxCollider2D:
@@ -1295,7 +1283,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 207435267}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plateforms
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -1310,28 +1298,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207435266}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -74.47066, y: -31.672655, z: 0.01891575}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.1146469, y: -4.1615677, z: -0.031012747}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1168086240}
-  - {fileID: 810410180}
-  - {fileID: 1339344608}
-  - {fileID: 2122652950}
-  - {fileID: 453887313}
-  - {fileID: 652947888}
-  - {fileID: 1061278783}
-  - {fileID: 885194933}
-  - {fileID: 1328938427}
-  - {fileID: 447191710}
-  - {fileID: 2123983051}
-  - {fileID: 1456680599}
-  - {fileID: 1178516921}
-  - {fileID: 938842250}
-  - {fileID: 681110395}
-  - {fileID: 777729443}
-  m_Father: {fileID: 0}
+  - {fileID: 1271103810}
+  m_Father: {fileID: 160998774}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &223974226
 GameObject:
@@ -1513,7 +1486,7 @@ GameObject:
   - component: {fileID: 342244403}
   - component: {fileID: 342244402}
   - component: {fileID: 342244401}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (18)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -1671,7 +1644,7 @@ GameObject:
   - component: {fileID: 405128159}
   - component: {fileID: 405128158}
   - component: {fileID: 405128157}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (10)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -1686,12 +1659,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 405128155}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.45, y: -18.57, z: -0.049928498}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.44999695, y: -18.569998, z: -0.049928498}
   m_LocalScale: {x: 10, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 160998774}
+  m_Father: {fileID: 1256719546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &405128157
 BoxCollider2D:
@@ -1914,7 +1887,7 @@ GameObject:
   - component: {fileID: 418006745}
   - component: {fileID: 418006744}
   - component: {fileID: 418006743}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (8)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -1929,12 +1902,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 418006741}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -8.02, y: -8, z: -0.049928498}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -8.019997, y: -8, z: -0.049928498}
   m_LocalScale: {x: 25, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 160998774}
+  m_Father: {fileID: 1256719546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &418006743
 BoxCollider2D:
@@ -2156,7 +2129,7 @@ GameObject:
   - component: {fileID: 447191713}
   - component: {fileID: 447191712}
   - component: {fileID: 447191711}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (12)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -2172,11 +2145,11 @@ Transform:
   m_GameObject: {fileID: 447191709}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 35.9, y: -7.7, z: -0.049928498}
+  m_LocalPosition: {x: 35.9, y: -7.699999, z: -0.049928498}
   m_LocalScale: {x: 7, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 207435267}
+  m_Father: {fileID: 1271103810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &447191711
 BoxCollider2D:
@@ -2314,7 +2287,7 @@ GameObject:
   - component: {fileID: 453887316}
   - component: {fileID: 453887315}
   - component: {fileID: 453887314}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (7)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -2330,11 +2303,11 @@ Transform:
   m_GameObject: {fileID: 453887312}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 39.52, y: -40.2, z: -0.049928498}
+  m_LocalPosition: {x: 39.52, y: -40.200005, z: -0.049928498}
   m_LocalScale: {x: 16, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 207435267}
+  m_Father: {fileID: 1271103810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &453887314
 BoxCollider2D:
@@ -2644,7 +2617,7 @@ GameObject:
   - component: {fileID: 499823302}
   - component: {fileID: 499823301}
   - component: {fileID: 499823300}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (7)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -2660,11 +2633,11 @@ Transform:
   m_GameObject: {fileID: 499823298}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.4, y: 4.89, z: -0.049928498}
+  m_LocalPosition: {x: -10.400002, y: 4.8899994, z: -0.049928498}
   m_LocalScale: {x: 15, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 160998774}
+  m_Father: {fileID: 1256719546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &499823300
 BoxCollider2D:
@@ -2802,7 +2775,7 @@ GameObject:
   - component: {fileID: 577863489}
   - component: {fileID: 577863488}
   - component: {fileID: 577863487}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (18)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -2817,13 +2790,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577863485}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.9848078, z: -0, w: -0.17364809}
+  m_LocalRotation: {x: -0, y: 0.9848078, z: -0, w: -0.17364809}
   m_LocalPosition: {x: 18.852287, y: -11.5658, z: 0.39940307}
   m_LocalScale: {x: 5, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1869915}
-  m_Father: {fileID: 875496035}
+  m_Father: {fileID: 1065125319}
   m_LocalEulerAnglesHint: {x: 0, y: 200, z: 0}
 --- !u!61 &577863487
 BoxCollider2D:
@@ -3025,7 +2998,7 @@ GameObject:
   - component: {fileID: 633026107}
   - component: {fileID: 633026106}
   - component: {fileID: 633026105}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (9)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -3041,11 +3014,11 @@ Transform:
   m_GameObject: {fileID: 633026103}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.47, y: 4.89, z: -0.049928498}
+  m_LocalPosition: {x: 15.470001, y: 4.8899994, z: -0.049928498}
   m_LocalScale: {x: 30, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 160998774}
+  m_Father: {fileID: 1256719546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &633026105
 BoxCollider2D:
@@ -3183,7 +3156,7 @@ GameObject:
   - component: {fileID: 633229194}
   - component: {fileID: 633229193}
   - component: {fileID: 633229192}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (19)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -3198,13 +3171,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633229190}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.9848078, z: -0, w: -0.17364809}
-  m_LocalPosition: {x: 17.94, y: 0.74, z: 0.39940307}
+  m_LocalRotation: {x: -0, y: 0.9848078, z: -0, w: -0.17364809}
+  m_LocalPosition: {x: 17.940002, y: 0.7399998, z: 0.39940307}
   m_LocalScale: {x: 6, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1263258614}
-  m_Father: {fileID: 875496035}
+  m_Father: {fileID: 1065125319}
   m_LocalEulerAnglesHint: {x: 0, y: 200, z: 0}
 --- !u!61 &633229192
 BoxCollider2D:
@@ -3342,7 +3315,7 @@ GameObject:
   - component: {fileID: 652947891}
   - component: {fileID: 652947890}
   - component: {fileID: 652947889}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (8)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -3357,12 +3330,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652947887}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 47.1, y: -24.85, z: -0.049928498}
   m_LocalScale: {x: 31.7, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 207435267}
+  m_Father: {fileID: 1271103810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &652947889
 BoxCollider2D:
@@ -3584,7 +3557,7 @@ GameObject:
   - component: {fileID: 681110398}
   - component: {fileID: 681110397}
   - component: {fileID: 681110396}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (17)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -3604,7 +3577,7 @@ Transform:
   m_LocalScale: {x: 5, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 207435267}
+  m_Father: {fileID: 1271103810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &681110396
 BoxCollider2D:
@@ -3742,7 +3715,7 @@ GameObject:
   - component: {fileID: 771666641}
   - component: {fileID: 771666640}
   - component: {fileID: 771666639}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (16)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -3763,7 +3736,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 81767933}
-  m_Father: {fileID: 875496035}
+  m_Father: {fileID: 1065125319}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &771666639
 BoxCollider2D:
@@ -3901,7 +3874,7 @@ GameObject:
   - component: {fileID: 771788153}
   - component: {fileID: 771788152}
   - component: {fileID: 771788151}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (12)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -3916,12 +3889,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 771788149}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -17.43, y: -18.41, z: -0.049928498}
-  m_LocalScale: {x: 12.1, y: 1, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -17.43, y: -18.410002, z: -0.049928498}
+  m_LocalScale: {x: 12.100001, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 160998774}
+  m_Father: {fileID: 1256719546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &771788151
 BoxCollider2D:
@@ -4059,7 +4032,7 @@ GameObject:
   - component: {fileID: 777729446}
   - component: {fileID: 777729445}
   - component: {fileID: 777729444}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (18)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -4074,12 +4047,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 777729442}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 38.09, y: 5.45, z: -0.049928498}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 38.09, y: 5.449999, z: -0.049928498}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 207435267}
+  m_Father: {fileID: 1271103810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &777729444
 BoxCollider2D:
@@ -4260,7 +4233,7 @@ GameObject:
   - component: {fileID: 810410183}
   - component: {fileID: 810410182}
   - component: {fileID: 810410181}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (4)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -4275,12 +4248,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 810410179}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 15.3, y: -24.85, z: -0.049928498}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 15.299999, y: -24.85, z: -0.049928498}
   m_LocalScale: {x: 31.7, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 207435267}
+  m_Father: {fileID: 1271103810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &810410181
 BoxCollider2D:
@@ -4499,7 +4472,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 875496035}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Steps
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -4514,19 +4487,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 875496034}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -102.50229, y: -28.4642, z: -0.43530902}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -29.146278, y: -0.95311165, z: -0.4852375}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 771666638}
-  - {fileID: 1617278963}
-  - {fileID: 577863486}
-  - {fileID: 633229191}
-  - {fileID: 1753831645}
-  - {fileID: 892040717}
-  - {fileID: 29336971}
-  m_Father: {fileID: 0}
+  - {fileID: 1065125319}
+  m_Father: {fileID: 160998774}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &885194932
 GameObject:
@@ -4540,7 +4507,7 @@ GameObject:
   - component: {fileID: 885194936}
   - component: {fileID: 885194935}
   - component: {fileID: 885194934}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (10)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -4560,7 +4527,7 @@ Transform:
   m_LocalScale: {x: 5, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 207435267}
+  m_Father: {fileID: 1271103810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &885194934
 BoxCollider2D:
@@ -4698,7 +4665,7 @@ GameObject:
   - component: {fileID: 892040720}
   - component: {fileID: 892040719}
   - component: {fileID: 892040718}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (21)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -4713,13 +4680,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 892040716}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.9848078, z: -0, w: -0.17364809}
-  m_LocalPosition: {x: 9.83, y: 1.151, z: 0.39940307}
+  m_LocalRotation: {x: -0, y: 0.9848078, z: -0, w: -0.17364809}
+  m_LocalPosition: {x: 9.830002, y: 1.151001, z: 0.39940307}
   m_LocalScale: {x: 3, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2044413768}
-  m_Father: {fileID: 875496035}
+  m_Father: {fileID: 1065125319}
   m_LocalEulerAnglesHint: {x: 0, y: 200, z: 0}
 --- !u!61 &892040718
 BoxCollider2D:
@@ -4857,7 +4824,7 @@ GameObject:
   - component: {fileID: 930090217}
   - component: {fileID: 930090216}
   - component: {fileID: 930090215}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (18)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -5015,7 +4982,7 @@ GameObject:
   - component: {fileID: 938842253}
   - component: {fileID: 938842252}
   - component: {fileID: 938842251}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (16)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -5035,7 +5002,7 @@ Transform:
   m_LocalScale: {x: 7, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 207435267}
+  m_Father: {fileID: 1271103810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &938842251
 BoxCollider2D:
@@ -5173,7 +5140,7 @@ GameObject:
   - component: {fileID: 1061278786}
   - component: {fileID: 1061278785}
   - component: {fileID: 1061278784}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (9)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -5193,7 +5160,7 @@ Transform:
   m_LocalScale: {x: 5, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 207435267}
+  m_Father: {fileID: 1271103810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1061278784
 BoxCollider2D:
@@ -5319,6 +5286,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1065125318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1065125319}
+  m_Layer: 6
+  m_Name: Marches
+  m_TagString: Sol
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1065125319
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065125318}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 771666638}
+  - {fileID: 1617278963}
+  - {fileID: 577863486}
+  - {fileID: 633229191}
+  - {fileID: 1753831645}
+  - {fileID: 892040717}
+  - {fileID: 29336971}
+  m_Father: {fileID: 875496035}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1095591182
 GameObject:
   m_ObjectHideFlags: 0
@@ -5406,7 +5411,7 @@ Transform:
   m_GameObject: {fileID: 1095591182}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.9, y: -22, z: -10}
+  m_LocalPosition: {x: -74.52, y: -29.039, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5458,7 +5463,7 @@ GameObject:
   - component: {fileID: 1114040584}
   - component: {fileID: 1114040583}
   - component: {fileID: 1114040582}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (3)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -5474,11 +5479,11 @@ Transform:
   m_GameObject: {fileID: 1114040580}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.53, y: -13.61, z: -0.049928498}
+  m_LocalPosition: {x: 6.529999, y: -13.609999, z: -0.049928498}
   m_LocalScale: {x: 15, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 160998774}
+  m_Father: {fileID: 1256719546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1114040582
 BoxCollider2D:
@@ -5616,7 +5621,7 @@ GameObject:
   - component: {fileID: 1133821410}
   - component: {fileID: 1133821409}
   - component: {fileID: 1133821408}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (6)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -5631,12 +5636,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1133821406}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 29.99, y: -2.46, z: -0.049928498}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 29.989998, y: -2.460001, z: -0.049928498}
   m_LocalScale: {x: 14, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 160998774}
+  m_Father: {fileID: 1256719546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1133821408
 BoxCollider2D:
@@ -5774,7 +5779,7 @@ GameObject:
   - component: {fileID: 1168086243}
   - component: {fileID: 1168086242}
   - component: {fileID: 1168086241}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (3)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -5790,11 +5795,11 @@ Transform:
   m_GameObject: {fileID: 1168086239}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.58, y: -40.2, z: -0.049928498}
+  m_LocalPosition: {x: 23.580002, y: -40.200005, z: -0.049928498}
   m_LocalScale: {x: 16, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 207435267}
+  m_Father: {fileID: 1271103810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1168086241
 BoxCollider2D:
@@ -5932,7 +5937,7 @@ GameObject:
   - component: {fileID: 1178516924}
   - component: {fileID: 1178516923}
   - component: {fileID: 1178516922}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (15)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -5952,7 +5957,7 @@ Transform:
   m_LocalScale: {x: 10, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 207435267}
+  m_Father: {fileID: 1271103810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1178516922
 BoxCollider2D:
@@ -6078,6 +6083,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1256719545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1256719546}
+  m_Layer: 6
+  m_Name: Squares
+  m_TagString: Sol
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1256719546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256719545}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 140813098}
+  - {fileID: 1577749884}
+  - {fileID: 1600812347}
+  - {fileID: 1114040581}
+  - {fileID: 108121214}
+  - {fileID: 1290270683}
+  - {fileID: 1133821407}
+  - {fileID: 499823299}
+  - {fileID: 418006742}
+  - {fileID: 633026104}
+  - {fileID: 405128156}
+  - {fileID: 1982872227}
+  - {fileID: 771788150}
+  - {fileID: 165585584}
+  - {fileID: 2089110259}
+  m_Father: {fileID: 160998774}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1263258613
 GameObject:
   m_ObjectHideFlags: 0
@@ -6090,7 +6141,7 @@ GameObject:
   - component: {fileID: 1263258617}
   - component: {fileID: 1263258616}
   - component: {fileID: 1263258615}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (18)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -6236,6 +6287,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1271103809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1271103810}
+  m_Layer: 6
+  m_Name: Plateforms
+  m_TagString: Sol
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1271103810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271103809}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1168086240}
+  - {fileID: 810410180}
+  - {fileID: 1339344608}
+  - {fileID: 2122652950}
+  - {fileID: 453887313}
+  - {fileID: 652947888}
+  - {fileID: 1061278783}
+  - {fileID: 885194933}
+  - {fileID: 1328938427}
+  - {fileID: 447191710}
+  - {fileID: 2123983051}
+  - {fileID: 1456680599}
+  - {fileID: 1178516921}
+  - {fileID: 938842250}
+  - {fileID: 681110395}
+  - {fileID: 777729443}
+  m_Father: {fileID: 207435267}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1290270682
 GameObject:
   m_ObjectHideFlags: 0
@@ -6248,7 +6346,7 @@ GameObject:
   - component: {fileID: 1290270686}
   - component: {fileID: 1290270685}
   - component: {fileID: 1290270684}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (5)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -6263,12 +6361,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290270682}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -7.03, y: 1.39, z: -0.049928498}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -7.029999, y: 1.3899994, z: -0.049928498}
   m_LocalScale: {x: 6, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 160998774}
+  m_Father: {fileID: 1256719546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1290270684
 BoxCollider2D:
@@ -6459,7 +6557,7 @@ Transform:
   m_GameObject: {fileID: 1307516640}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.9, y: -22, z: -10}
+  m_LocalPosition: {x: -74.52, y: -29.039, z: -10}
   m_LocalScale: {x: 1, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6482,7 +6580,7 @@ GameObject:
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -6495,11 +6593,12 @@ Transform:
   m_GameObject: {fileID: 1324936793}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.9, y: -22, z: 0}
+  m_LocalPosition: {x: -74.52, y: -29.039, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1782525770}
+  - {fileID: 1425589111}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1324936795
@@ -6530,7 +6629,12 @@ MonoBehaviour:
   jumpforce: 350
   maxjump: 2
   fallMultiplier: 4
+  radiusdetector: 0.4
   graphics: {fileID: 1782525769}
+  groundmask:
+    serializedVersion: 2
+    m_Bits: 64
+  groundDetector: {fileID: 1425589111}
   _direction: {x: 0, y: 0}
 --- !u!50 &1324936797
 Rigidbody2D:
@@ -6616,7 +6720,7 @@ GameObject:
   - component: {fileID: 1328938430}
   - component: {fileID: 1328938429}
   - component: {fileID: 1328938428}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (11)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -6636,7 +6740,7 @@ Transform:
   m_LocalScale: {x: 5, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 207435267}
+  m_Father: {fileID: 1271103810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1328938428
 BoxCollider2D:
@@ -6774,7 +6878,7 @@ GameObject:
   - component: {fileID: 1339344611}
   - component: {fileID: 1339344610}
   - component: {fileID: 1339344609}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (5)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -6789,12 +6893,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339344607}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 31.1, y: -19.3, z: -0.049928498}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 31.099998, y: -19.300001, z: -0.049928498}
   m_LocalScale: {x: 28, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 207435267}
+  m_Father: {fileID: 1271103810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1339344609
 BoxCollider2D:
@@ -6920,6 +7024,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1425589110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1425589111}
+  m_Layer: 0
+  m_Name: GroundDetector
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1425589111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425589110}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.02, y: 0, z: -0.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1324936794}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1456680598
 GameObject:
   m_ObjectHideFlags: 0
@@ -6932,7 +7067,7 @@ GameObject:
   - component: {fileID: 1456680602}
   - component: {fileID: 1456680601}
   - component: {fileID: 1456680600}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (14)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -6947,12 +7082,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456680598}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 47.1, y: -6.48, z: -0.049928498}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 47.1, y: -6.4800014, z: -0.049928498}
   m_LocalScale: {x: 31.7, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 207435267}
+  m_Father: {fileID: 1271103810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1456680600
 BoxCollider2D:
@@ -7258,7 +7393,7 @@ GameObject:
   - component: {fileID: 1577749887}
   - component: {fileID: 1577749886}
   - component: {fileID: 1577749885}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (1)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -7274,11 +7409,11 @@ Transform:
   m_GameObject: {fileID: 1577749883}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.93, y: -3.13, z: -0.049928498}
+  m_LocalPosition: {x: 16.93, y: -3.1299992, z: -0.049928498}
   m_LocalScale: {x: 13, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 160998774}
+  m_Father: {fileID: 1256719546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1577749885
 BoxCollider2D:
@@ -7416,7 +7551,7 @@ GameObject:
   - component: {fileID: 1600812350}
   - component: {fileID: 1600812349}
   - component: {fileID: 1600812348}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (2)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -7432,11 +7567,11 @@ Transform:
   m_GameObject: {fileID: 1600812346}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.99, y: -8.96, z: -0.049928498}
+  m_LocalPosition: {x: 19.989998, y: -8.960001, z: -0.049928498}
   m_LocalScale: {x: 19, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 160998774}
+  m_Father: {fileID: 1256719546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1600812348
 BoxCollider2D:
@@ -7574,7 +7709,7 @@ GameObject:
   - component: {fileID: 1617278966}
   - component: {fileID: 1617278965}
   - component: {fileID: 1617278964}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (17)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -7589,13 +7724,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1617278962}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.9848078, z: -0, w: -0.17364809}
+  m_LocalRotation: {x: -0, y: 0.9848078, z: -0, w: -0.17364809}
   m_LocalPosition: {x: 19.61229, y: -19.0458, z: 0.39940307}
   m_LocalScale: {x: 3, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 930090214}
-  m_Father: {fileID: 875496035}
+  m_Father: {fileID: 1065125319}
   m_LocalEulerAnglesHint: {x: 0, y: 200, z: 0}
 --- !u!61 &1617278964
 BoxCollider2D:
@@ -7733,7 +7868,7 @@ GameObject:
   - component: {fileID: 1753831648}
   - component: {fileID: 1753831647}
   - component: {fileID: 1753831646}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (20)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -7749,12 +7884,12 @@ Transform:
   m_GameObject: {fileID: 1753831644}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.47229, y: -4.69, z: 0.39940307}
+  m_LocalPosition: {x: 14.47229, y: -4.6899986, z: 0.39940307}
   m_LocalScale: {x: 5, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 342244400}
-  m_Father: {fileID: 875496035}
+  m_Father: {fileID: 1065125319}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1753831646
 BoxCollider2D:
@@ -7892,7 +8027,7 @@ GameObject:
   - component: {fileID: 1776881834}
   - component: {fileID: 1776881833}
   - component: {fileID: 1776881832}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (18)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -8240,7 +8375,7 @@ GameObject:
   - component: {fileID: 1982872230}
   - component: {fileID: 1982872229}
   - component: {fileID: 1982872228}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (11)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -8256,11 +8391,11 @@ Transform:
   m_GameObject: {fileID: 1982872226}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.46, y: -23.94, z: -0.049928498}
+  m_LocalPosition: {x: -8.459999, y: -23.94, z: -0.049928498}
   m_LocalScale: {x: 17, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 160998774}
+  m_Father: {fileID: 1256719546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1982872228
 BoxCollider2D:
@@ -8398,7 +8533,7 @@ GameObject:
   - component: {fileID: 2044413771}
   - component: {fileID: 2044413770}
   - component: {fileID: 2044413769}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (18)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -8640,7 +8775,7 @@ GameObject:
   - component: {fileID: 2089110262}
   - component: {fileID: 2089110261}
   - component: {fileID: 2089110260}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (14)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -8655,12 +8790,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2089110258}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1.11, y: 10.2, z: -0.049928498}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 1.1100006, y: 10.199999, z: -0.049928498}
   m_LocalScale: {x: 10, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 160998774}
+  m_Father: {fileID: 1256719546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &2089110260
 BoxCollider2D:
@@ -8798,7 +8933,7 @@ GameObject:
   - component: {fileID: 2122652953}
   - component: {fileID: 2122652952}
   - component: {fileID: 2122652951}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (6)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -8818,7 +8953,7 @@ Transform:
   m_LocalScale: {x: 7, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 207435267}
+  m_Father: {fileID: 1271103810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2122652951
 BoxCollider2D:
@@ -8956,7 +9091,7 @@ GameObject:
   - component: {fileID: 2123983054}
   - component: {fileID: 2123983053}
   - component: {fileID: 2123983052}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (13)
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -8972,11 +9107,11 @@ Transform:
   m_GameObject: {fileID: 2123983050}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 42.9, y: 0.7, z: -0.049928498}
+  m_LocalPosition: {x: 42.9, y: 0.70000076, z: -0.049928498}
   m_LocalScale: {x: 6, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 207435267}
+  m_Father: {fileID: 1271103810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2123983052
 BoxCollider2D:
@@ -9192,11 +9327,9 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1095591185}
-  - {fileID: 160998774}
   - {fileID: 1324936794}
+  - {fileID: 160998774}
   - {fileID: 782628376}
   - {fileID: 1307516642}
-  - {fileID: 207435267}
-  - {fileID: 875496035}
   - {fileID: 5763178406417990597}
   - {fileID: 414406746}
