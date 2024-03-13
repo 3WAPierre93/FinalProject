@@ -31,6 +31,7 @@ public class Movement : MonoBehaviour
     private Transform groundDetector;
     #endregion
 
+    #region Cycle Unity
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -51,21 +52,9 @@ public class Movement : MonoBehaviour
         }
         animator.SetFloat("Move X", Mathf.Abs(_direction.x));
 
-
-        // si je touche le sol , mon nb de saut repart à zéro //Quand le player touche le sol l'anim Jump s'arrête//
-        Collider2D floorcollider = Physics2D.OverlapCircle(groundDetector.position, radiusdetector, groundmask);
-
-        isGrounded = floorcollider != null;
-
-        if (isGrounded)
-        {
-            nbjump = 0;
-        }
+        GroundDetector();
+        
     } 
-            
-       
-
-       
     void FixedUpdate()
     {
         _direction.y = rb.velocity.y;
@@ -87,7 +76,7 @@ public class Movement : MonoBehaviour
         rb.velocity = _direction;
         
     }
-         
+    //Quand le player touche le sol l'anim Jump s'arrête//
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Sol"))
@@ -108,7 +97,24 @@ public class Movement : MonoBehaviour
         }
         Gizmos.DrawWireSphere(groundDetector.position, radiusdetector);
     }
-    #region 
+    #endregion
+
+    #region Ground Detector
+    private void GroundDetector()
+    {
+        // si je touche le sol , mon nb de saut repart à zéro //Quand le player touche le sol l'anim Jump s'arrête//
+        Collider2D floorcollider = Physics2D.OverlapCircle(groundDetector.position, radiusdetector, groundmask);
+
+        isGrounded = floorcollider != null;
+
+        if (isGrounded)
+        {
+            nbjump = 0;
+        }
+    }
+    #endregion
+
+    #region Private
     [SerializeField]
     private Vector2 _direction;
     private int nbjump = 0;
@@ -116,6 +122,10 @@ public class Movement : MonoBehaviour
     private bool isGrounded = false;
     #endregion
 }
+            
+       
+
+       
             
          
         
