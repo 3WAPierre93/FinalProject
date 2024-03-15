@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b6dc0d6c16e178747b2b8bff6bf5d713
+guid: a2e8a74cb6b0ea0469e872533c94e3da
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,13 +44,13 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 4
-  spriteMeshType: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -69,10 +69,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -149,13 +149,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Terrain (16x16)_0
+      name: Orange_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 129
-        width: 46
-        height: 46
+        x: 0
+        y: 0
+        width: 321
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc80d571e8413f4d91bad84cdd9c987
-      internalID: -250176177
+      spriteID: d5137440f42a51d4683260b95360c218
+      internalID: -1516361171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain (16x16)_1
+      name: Orange_1
       rect:
         serializedVersion: 2
-        x: 97
-        y: 129
-        width: 46
-        height: 46
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f2a86d07debadf459ac58a3bf4e49fb
-      internalID: 1564161054
+      spriteID: e661ed9892dd5bb46b14a6082f54a570
+      internalID: 1630217139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain (16x16)_2
+      name: Orange_2
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64
-        height: 48
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f33b3386a25116149959e01afc05cf10
-      internalID: -80737053
+      spriteID: 3d68bede46ccaa54cacffd91e4e1690b
+      internalID: 1911050385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain (16x16)_3
+      name: Orange_3
       rect:
         serializedVersion: 2
-        x: 272
-        y: 171
-        width: 48
-        height: 5
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2085b79a371d52448896ce572ae3f887
-      internalID: 634611611
+      spriteID: 194e12a1d26937f418afbecdbffa66c8
+      internalID: -1702446714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain (16x16)_4
+      name: Orange_4
       rect:
         serializedVersion: 2
-        x: 272
-        y: 155
-        width: 48
-        height: 5
+        x: 128
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a1b4203f010fc2499d8b7ecd603e4dd
-      internalID: -372684528
+      spriteID: 9122b082674d9c7448a486181751ab72
+      internalID: 1917706502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain (16x16)_5
+      name: Orange_5
       rect:
         serializedVersion: 2
-        x: 272
-        y: 139
-        width: 48
-        height: 5
+        x: 160
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,146 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b1d83d5d17630544bc2d4feae1e7634
-      internalID: 1470084723
+      spriteID: 38f86dc8e5bb92a49a62610c175175b6
+      internalID: 1224557037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain (16x16)_6
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 65
-        width: 46
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dff8831841317c640838b483484a90e2
-      internalID: -319405615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain (16x16)_7
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 65
-        width: 46
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4deda0fa6ffc5404684f9f7a30b9e309
-      internalID: -2098875489
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain (16x16)_8
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 587670936ef98ac46b3e177391087b37
-      internalID: 610950768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain (16x16)_9
-      rect:
-        serializedVersion: 2
-        x: 273
-        y: 65
-        width: 46
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eeefc6a660ce9974cabed0c22001ef30
-      internalID: 588684366
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain (16x16)_10
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 1
-        width: 46
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b16836fb89e992408a2786dbed009c4
-      internalID: -1554633183
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain (16x16)_11
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 1
-        width: 46
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1998e33867a55b48b1b5e9b67d8911f
-      internalID: -1087503699
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain (16x16)_12
+      name: Orange_6
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 64
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f274eea96b689e4ca02b10968cb7281
-      internalID: -458260170
+      spriteID: c6c4f33eec165a2449638aafd246bc31
+      internalID: -1935791829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain (16x16)_13
+      name: Orange_7
       rect:
         serializedVersion: 2
-        x: 272
+        x: 224
         y: 0
-        width: 64
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,8 +310,197 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75f56dcfb118fea41bb89b70555f7c65
-      internalID: -627476904
+      spriteID: e488d8fb8b373e94f8aa125aba2d2105
+      internalID: 1431989774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801acd93a4c0ca548a2301ec1e55eb1f
+      internalID: -1804020981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdebd0ba1475884ca73c9a949815f92
+      internalID: 2019707608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8803d76442fb0184bb4d2f4d10a54278
+      internalID: -1491244742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9fb0c9651ef4d4c9f5e4484f6ad82f
+      internalID: -586104204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d519cce3c7a7947a54f36a0ce5151f
+      internalID: -1088893143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903fc09c427124f4bac05b0ac22c904f
+      internalID: -115079406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad751922d42d204f90e5fd46bcc8e8a
+      internalID: 744998699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bafc08da0f7864d916724a18c39044
+      internalID: 852236909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd65bb8599a9f974188cd6783442301c
+      internalID: 1785272996
       vertices: []
       indices: 
       edges: []
@@ -453,20 +516,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Terrain (16x16)_0: -250176177
-      Terrain (16x16)_1: 1564161054
-      Terrain (16x16)_10: -80737053
-      Terrain (16x16)_11: 634611611
-      Terrain (16x16)_12: -372684528
-      Terrain (16x16)_13: 1470084723
-      Terrain (16x16)_2: -319405615
-      Terrain (16x16)_3: -2098875489
-      Terrain (16x16)_4: 610950768
-      Terrain (16x16)_5: 588684366
-      Terrain (16x16)_6: -1554633183
-      Terrain (16x16)_7: -1087503699
-      Terrain (16x16)_8: -458260170
-      Terrain (16x16)_9: -627476904
+      Orange_0: -1516361171
+      Orange_1: 1630217139
+      Orange_10: -1491244742
+      Orange_11: -586104204
+      Orange_12: -1088893143
+      Orange_13: -115079406
+      Orange_14: 744998699
+      Orange_15: 852236909
+      Orange_16: 1785272996
+      Orange_2: 1911050385
+      Orange_3: -1702446714
+      Orange_4: 1917706502
+      Orange_5: 1224557037
+      Orange_6: -1935791829
+      Orange_7: 1431989774
+      Orange_8: -1804020981
+      Orange_9: 2019707608
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

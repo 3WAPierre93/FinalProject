@@ -46,15 +46,15 @@ public class Movement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && nbjump < maxjump)
         {
             jump = true;
-            Debug.Log("Jump true");
             animator.SetBool("Jump", true);
-           
         }
+            
         animator.SetFloat("Move X", Mathf.Abs(_direction.x));
-
+           
         GroundDetector();
-        
     } 
+
+        
     void FixedUpdate()
     {
         _direction.y = rb.velocity.y;
@@ -76,6 +76,7 @@ public class Movement : MonoBehaviour
         rb.velocity = _direction;
         
     }
+            
     //Quand le player touche le sol l'anim Jump s'arrête//
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -84,6 +85,7 @@ public class Movement : MonoBehaviour
             animator.SetBool("Jump", false);
         }
     }
+
     private void OnDrawGizmos()
     {
         if (isGrounded)
@@ -109,9 +111,22 @@ public class Movement : MonoBehaviour
 
         if (isGrounded)
         {
+            if(floorcollider.CompareTag("Plateform"))
+            {
+                transform.SetParent(floorcollider.transform);
+                animator.SetBool("Jump", false);
+            }
+            else
+            {
+                transform.SetParent( null );
+            }
+
             nbjump = 0;
         }
     }
+
+            
+        
     #endregion
 
     #region Private

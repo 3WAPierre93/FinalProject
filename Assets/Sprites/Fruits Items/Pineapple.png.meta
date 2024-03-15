@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b6dc0d6c16e178747b2b8bff6bf5d713
+guid: 7d2dbcb0f419d9b46abdc90edc989921
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,13 +44,13 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 4
-  spriteMeshType: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -69,10 +69,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -149,295 +149,358 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Terrain (16x16)_0
+      name: Pineapple_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 129
-        width: 46
-        height: 46
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc80d571e8413f4d91bad84cdd9c987
-      internalID: -250176177
+      spriteID: eb5e894a67a570b45a9bf0ac4df10fc3
+      internalID: 219411429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain (16x16)_1
+      name: Pineapple_1
       rect:
         serializedVersion: 2
-        x: 97
-        y: 129
-        width: 46
-        height: 46
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f2a86d07debadf459ac58a3bf4e49fb
-      internalID: 1564161054
+      spriteID: 9b22a80b0c7398a4fa06ac33de799a73
+      internalID: -429433701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain (16x16)_2
+      name: Pineapple_2
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64
-        height: 48
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f33b3386a25116149959e01afc05cf10
-      internalID: -80737053
+      spriteID: 572015a624130074c9ae8fdf2718ae46
+      internalID: 946744317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain (16x16)_3
+      name: Pineapple_3
       rect:
         serializedVersion: 2
-        x: 272
-        y: 171
-        width: 48
-        height: 5
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2085b79a371d52448896ce572ae3f887
-      internalID: 634611611
+      spriteID: 03d1edc68109afc438df4654d44e7e50
+      internalID: 1926594434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain (16x16)_4
+      name: Pineapple_4
       rect:
         serializedVersion: 2
-        x: 272
-        y: 155
-        width: 48
-        height: 5
+        x: 128
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a1b4203f010fc2499d8b7ecd603e4dd
-      internalID: -372684528
+      spriteID: 2fa3fb9791642064d82fefb957236623
+      internalID: -98171769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain (16x16)_5
+      name: Pineapple_5
       rect:
         serializedVersion: 2
-        x: 272
-        y: 139
-        width: 48
-        height: 5
+        x: 160
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b1d83d5d17630544bc2d4feae1e7634
-      internalID: 1470084723
+      spriteID: 0b88dcd3fa02390429a55019b7edc46b
+      internalID: 1557960246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain (16x16)_6
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 65
-        width: 46
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dff8831841317c640838b483484a90e2
-      internalID: -319405615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain (16x16)_7
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 65
-        width: 46
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4deda0fa6ffc5404684f9f7a30b9e309
-      internalID: -2098875489
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain (16x16)_8
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 587670936ef98ac46b3e177391087b37
-      internalID: 610950768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain (16x16)_9
-      rect:
-        serializedVersion: 2
-        x: 273
-        y: 65
-        width: 46
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eeefc6a660ce9974cabed0c22001ef30
-      internalID: 588684366
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain (16x16)_10
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 1
-        width: 46
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b16836fb89e992408a2786dbed009c4
-      internalID: -1554633183
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain (16x16)_11
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 1
-        width: 46
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1998e33867a55b48b1b5e9b67d8911f
-      internalID: -1087503699
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain (16x16)_12
+      name: Pineapple_6
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 64
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f274eea96b689e4ca02b10968cb7281
-      internalID: -458260170
+      spriteID: 5e6e5b15542a23d479ddd45aa3386dfd
+      internalID: 1337191709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain (16x16)_13
+      name: Pineapple_7
       rect:
         serializedVersion: 2
-        x: 272
+        x: 224
         y: 0
-        width: 64
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75f56dcfb118fea41bb89b70555f7c65
-      internalID: -627476904
+      spriteID: ef4ac36ba09024b4db0d213ed0600084
+      internalID: -1738123328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pineapple_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16e27d8fdaab7f47870eea2730eb292
+      internalID: -749431711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pineapple_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6b964406b19d94e8de5c356c202c04
+      internalID: 2117662509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pineapple_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396bf43e074af5340b0427d9b9b3202c
+      internalID: -48976396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pineapple_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67271b66dc15d644eb13a1dde8d597ad
+      internalID: -1913167205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pineapple_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66673584375a24246b5be53b9bcb3901
+      internalID: -1456103046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pineapple_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0915459f6140d004cbceb0cfb9814751
+      internalID: -1884582639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pineapple_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c606e3f5bf6f2143876e6601254894e
+      internalID: -1205927533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pineapple_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2ddd76fc14b654b81b334a7751b55e
+      internalID: -126831075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pineapple_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70bbd53065e427429c3518060e2bebd
+      internalID: -1617473395
       vertices: []
       indices: 
       edges: []
@@ -453,20 +516,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Terrain (16x16)_0: -250176177
-      Terrain (16x16)_1: 1564161054
-      Terrain (16x16)_10: -80737053
-      Terrain (16x16)_11: 634611611
-      Terrain (16x16)_12: -372684528
-      Terrain (16x16)_13: 1470084723
-      Terrain (16x16)_2: -319405615
-      Terrain (16x16)_3: -2098875489
-      Terrain (16x16)_4: 610950768
-      Terrain (16x16)_5: 588684366
-      Terrain (16x16)_6: -1554633183
-      Terrain (16x16)_7: -1087503699
-      Terrain (16x16)_8: -458260170
-      Terrain (16x16)_9: -627476904
+      Pineapple_0: 219411429
+      Pineapple_1: -429433701
+      Pineapple_10: -48976396
+      Pineapple_11: -1913167205
+      Pineapple_12: -1456103046
+      Pineapple_13: -1884582639
+      Pineapple_14: -1205927533
+      Pineapple_15: -126831075
+      Pineapple_16: -1617473395
+      Pineapple_2: 946744317
+      Pineapple_3: 1926594434
+      Pineapple_4: -98171769
+      Pineapple_5: 1557960246
+      Pineapple_6: 1337191709
+      Pineapple_7: -1738123328
+      Pineapple_8: -749431711
+      Pineapple_9: 2117662509
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
